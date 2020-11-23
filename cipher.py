@@ -15,7 +15,7 @@ def cipher(shft: int, text: str):
       cipher += text[i]
       continue
     index_of_chr = eng_alphabet.index(text[i])
-    if index_of_chr > (len(eng_alphabet) - shft):
+    if index_of_chr >= (len(eng_alphabet) - shft):
       cipher += eng_alphabet[(shft - (len(eng_alphabet) - index_of_chr))] 
     else:
       cipher += eng_alphabet[index_of_chr + shft]
