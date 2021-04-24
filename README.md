@@ -9,4 +9,4 @@ Python.
 
 **Input**: `cipher(4, 'hello')`
 
-**Output**: 'lipps'
+**Output**: `lipps`
